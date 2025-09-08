@@ -1,0 +1,16 @@
+✅ 方法一：把 Redis 安装为 Windows 服务（推荐）
+如果你是用的 Redis Windows 版本（比如微软维护的 MicrosoftArchive/redis），可以直接安装为服务：
+
+✔️ 安装命令：
+redis-server --service-install redis.windows.conf
+
+✔️ 启动服务：
+redis-server --service-start
+
+✔️ 停止服务：
+redis-server --service-stop
+
+✔️ 卸载服务（可选）：
+redis-server --service-uninstall
+
+✅ 安装成功后，Redis 会像 MySQL 一样作为后台服务运行，不再需要手动启动命令。
