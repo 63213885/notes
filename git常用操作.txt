@@ -10,7 +10,7 @@ git add XX
 git commit -m “给自己看的备注信息”
 
 git commit --amend -m "新的提交信息"  // 修改最近一次提交的备注信息
-git push origin 分支名 --force  // 如果已经 push 到远程了，修改 commit 后需要 强制推送：
+git push origin master --force  // 如果已经 push 到远程了，修改 commit 后需要 强制推送：
 
 git remote add origin git@git.acwing.com:xxx/XXX.git
 
