@@ -17,6 +17,7 @@ git remote add origin git@git.acwing.com:xxx/XXX.git
 git remote -v
 
 git push -u origin master
+git push -u origin main
 git push
 
 git clone https://github.com/63213885/XXX.git
@@ -24,3 +25,4 @@ git clone https://github.com/63213885/XXX.git .
 
 git pull
 git pull origin master
+git pull origin main
